@@ -37,7 +37,7 @@ int main()
       printf("El resultado es %f\n",res);
       break;
     }
-  return 0;
+    return 0;
   }
 
 
