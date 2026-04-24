@@ -13,13 +13,26 @@ void main()
         }    
         printf("\n");
     }
-    for (i=j)
-    
-    if (i=j) 
+   
+        for ( i = 0 ; i < 3 ; i++)
     {
-      tabla[i][j]= 0;
-      
-    }
-    for   
+        for ( j = 0 ; j < 3 ; j++)
+        {
+                  
+        if (i=j) 
+        {
+          tabla[i][j]= 0;
+          
+        }
+        else 
+        {
+            tabla[i][j]=1;
+        }
         printf("%d", tabla[i][j]);
+           
+        }    
+        
+        printf("\n");
+    }
+   
 }
