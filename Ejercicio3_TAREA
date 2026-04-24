@@ -3,11 +3,12 @@ copie esos dos vectores en un tercero (uno a continuación del otro) y muestre s
 Los tamaños de los dos vectores deben declararse como constantes.
 
 #include <stdio.h>
-#define TAMAÑO 5
+#define TAMAÑO1 5
+#define TAMAÑO2 10
 int main() 
 {
-    int vector1 [TAMAÑO];
-    int vector2 [TAMAÑO];
+    int vector1 [TAMAÑO1];
+    int vector2 [TAMAÑO2];
     int indice=0;
     int numElementos=0;
     printf("\nEscribe un numero entre 1 y 5 para definir el tamaño del vector 1\n");
@@ -21,8 +22,10 @@ int main()
         }
     }
         else printf("\nEl numero dado no es válido");
-    
-    if((numElementos>=1) && (numElementos<=5))
+        
+    printf("\nEscribe un numero entre 1 y 10 para definir el tamaño del vector 2\n");
+    scanf("%d",&numElementos);
+    if((numElementos>=1) && (numElementos<=10))
     {
         for (indice = 0 ; indice <= numElementos-1 ; indice++)
         {
