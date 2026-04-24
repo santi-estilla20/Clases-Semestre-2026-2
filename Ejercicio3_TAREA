@@ -1,0 +1,26 @@
+//Escriba un programa que lea los valores de todos los elementos de dos vectores de enteros introducidos por el usuario, 
+copie esos dos vectores en un tercero (uno a continuación del otro) y muestre sus valores por pantalla. 
+Los tamaños de los dos vectores deben declararse como constantes.
+
+#include <stdio.h>
+#define TAMAÑO 5
+int main() 
+{
+    int vector1 [TAMAÑO];
+    int indice=0;
+    int numElementos=0;
+    printf("\Escribe un numero entre 1 y 10 para definir el tamaño del vector 1\n");
+    scanf("%d",&numElementos);
+    if((numElementos>=1)) && (numElementos<=10))
+    {
+        for (indice = 0 ; indice <= numElementos-1 ; indice++)
+        {
+            printf("\Digite un valor entero para el elemento %d del arreglo", indice);
+            scanf("%d", &vector1[indice]);
+        }
+    }
+    else printf("\El numero dado no es válido")
+ 
+
+    return 0;
+}
