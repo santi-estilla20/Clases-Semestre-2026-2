@@ -4,7 +4,7 @@
 void main()
 {
     char tablero[TAMAÑO][TAMAÑO];
-    int i,j;
+    int i,j,aux[8];
     
     for (i=0; i < 8; i++ )
     {
@@ -22,7 +22,11 @@ void main()
         }
           printf("\n");
     }
-   
-
-   
+    
+    for( i= 0 ; i < 8 ; i++)
+    {
+        printf("Dame la coordenada del barquito %d separado por coma: ", (i+1));
+        scanf("%d,%d", aux[i]);
+    
+    }
 }
