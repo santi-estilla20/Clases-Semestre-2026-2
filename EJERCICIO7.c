@@ -10,7 +10,7 @@ void main()
     {
         for (j=0; j < 8; j++)
         {
-           tablero[i][j]='o';
+           tablero[i][j]='O';
         }
     }
     
