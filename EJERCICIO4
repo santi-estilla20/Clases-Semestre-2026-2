@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void main()
+{
+    int tabla[3][3] = {{1,1,1},{1,1,1},{1,1,1}};
+    int i, j;
+    
+    for ( i = 0 ; i < 3 ; i++)
+    {
+        for ( j = 0 ; j < 3 ; j++)
+        {
+            printf("%d", tabla[i][j]);
+        }    
+        printf("\n");
+    }
+    for (i=j)
+    
+    if (i=j) 
+    {
+      tabla[i][j]= 0;
+      
+    }
+    for   
+        printf("%d", tabla[i][j]);
+}
